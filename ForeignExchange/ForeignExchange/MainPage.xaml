@@ -15,16 +15,19 @@
             Text="Pesos:">
         </Label>
         <Entry
+            x:Name="PesosEntry"
             Keyboard="Numeric"
             Placeholder="Enter the amount in pesos...">
         </Entry>
         <Button
+            x:Name="ConvertButton"
             Text="Convert">
         </Button>
         <Label
             Text="Dollars:">
         </Label>
         <Entry
+            x:Name="DollarsEntry"
             IsEnabled="False"
             Placeholder="Value in dollars">
         </Entry>
@@ -32,6 +35,7 @@
             Text="Euros:">
         </Label>
         <Entry
+            x:Name="EurosEntry"
             IsEnabled="False"
             Placeholder="Value in euros">
         </Entry>
@@ -39,6 +43,7 @@
             Text="Pounds:">
         </Label>
         <Entry
+            x:Name="PoundsEntry"
             IsEnabled="False"
             Placeholder="Value in pounds">
         </Entry>
